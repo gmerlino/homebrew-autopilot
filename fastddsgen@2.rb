@@ -1,4 +1,4 @@
-class Fastddsgen < Formula
+class FastddsgenAT2 < Formula
   desc "Fast-DDS IDL code generator tool "
   homepage "https://www.eprosima.com/index.php/products-all/eprosima-fast-dds"
   url "https://github.com/eProsima/Fast-DDS-Gen.git", tag: "v3.2.0"
