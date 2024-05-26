@@ -12,7 +12,7 @@ class Px4Dev < Formula
   depends_on "ccache"
   depends_on "cmake"
   depends_on "flock"
-  depends_on "gmerlino/autopilot/uxrcedds"
+  depends_on "gmerlino/autopilot/uxrcedds-agent"
   depends_on "gcc-arm-none-eabi"
   depends_on "genromfs"
   depends_on "gmerlino/autopilot/kconfig-frontends"

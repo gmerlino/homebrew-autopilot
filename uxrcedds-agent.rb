@@ -1,7 +1,7 @@
-class Uxrcedds < Formula
+class UxrceddsAgent < Formula
   desc "MicroXRCE-DDS implementation"
   homepage "https://micro-xrce-dds.docs.eprosima.com"
-  url "https://github.com/eProsima/Micro-XRCE-DDS.git", tag: "v2.4.3"
+  url "https://github.com/eProsima/Micro-XRCE-DDS-Agent.git", tag: "v2.4.3"
   sha256 "8f4074641c45ae2642877c7f55260d00f390e5329b138e55fd45f4e3c988ff5d"
 
   depends_on "cmake" => :build
@@ -9,10 +9,7 @@ class Uxrcedds < Formula
   depends_on "tinyxml2"
   depends_on "gmerlino/autopilot/microcdr"
 
-  depends_on :linux
-
-  conflicts_with "gmerlino/autopilot/uxrcedds-client", because: "both install uXRCE-Client"
-  conflicts_with "gmerlino/autopilot/uxrcedds-agent", because: "both install uXRCE-Agent"
+  conflicts_with "gmerlino/autopilot/uxrcedds", because: "both install uXRCE-Agent"
 
   def install
     cmake_args = std_cmake_args
