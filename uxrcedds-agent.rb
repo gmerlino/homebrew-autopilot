@@ -6,6 +6,7 @@ class UxrceddsAgent < Formula
 
   depends_on "cmake" => :build
   depends_on "asio"
+  depends_on "spdlog"
   depends_on "tinyxml2"
   depends_on "gmerlino/autopilot/microcdr"
 
@@ -15,6 +16,8 @@ class UxrceddsAgent < Formula
     cmake_args = std_cmake_args
     cmake_args << "-DCMAKE_INSTALL_PREFIX:PATH=#{prefix}"
     cmake_args << "-DUXRCE_BUILD_EXAMPLES=ON"
+    cmake_args << "-DUAGENT_SOCKETCAN_PROFILE=OFF"
+    cmake_args << "-DUAGENT_USE_SYSTEM_LOGGER=ON"
 #    cmake_args << "-DUXRCE_ENABLE_GEN=ON"
 
     Dir.mkdir("./build")
