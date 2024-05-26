@@ -12,13 +12,12 @@ class Px4Dev < Formula
   depends_on "ccache"
   depends_on "cmake"
   depends_on "flock"
-  depends_on "fastdds"
+  depends_on "gmerlino/autopilot/fastdds"
   depends_on "gcc-arm-none-eabi"
   depends_on "genromfs"
-  depends_on "kconfig-frontends"
+  depends_on "gmerlino/autopilot/kconfig-frontends"
   depends_on "ninja"
-#  depends_on "gmerlino/ros2/pyserial"
-  depends_on "pyserial"
+  depends_on "gmerlino/autopilot/pyserial"
   depends_on "python@3.12"
 
   def install

@@ -12,9 +12,8 @@ class Px4SimJmavsim < Formula
   version "1.14.0"
   sha256 "6e4a8a6aad592a0c156d16233e16ee276fd6cc63b620be5bd047375b1352e27d"
   depends_on "ant"
-  depends_on "px4-dev"
-#  depends_on "gmerlino/ros2/pyserial"
-  depends_on "pyserial"
+  depends_on "gmerlino/autopilot/px4-dev"
+  depends_on "gmerlino/autopilot/pyserial"
   depends_on "python@3.12"
 
   def install

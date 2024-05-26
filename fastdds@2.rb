@@ -7,9 +7,9 @@ class FastddsAT2 < Formula
   depends_on "cmake" => :build
   depends_on "asio"
   depends_on "tinyxml2"
-  depends_on "fastcdr"
-  depends_on "fastddsgen"
-  depends_on "foonathan-memory"
+  depends_on "gmerlino/autopilot/fastcdr"
+  depends_on "gmerlino/autopilot/fastddsgen"
+  depends_on "gmerlino/autopilot/foonathan-memory"
 
 
   def install
