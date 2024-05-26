@@ -1,8 +1,8 @@
 class FastddsgenAT3 < Formula
   desc "Fast-DDS IDL code generator tool "
   homepage "https://www.eprosima.com/index.php/products-all/eprosima-fast-dds"
-  url "https://github.com/eProsima/Fast-DDS-Gen.git", tag: "v3.2.0"
-  sha256 "766590ff6468c41accdffb28ef6858b315376e7a795a6c6a791c9cb87bf6bfd7"
+  url "https://github.com/eProsima/Fast-DDS-Gen.git", tag: "v3.3.0"
+  sha256 "823f8214e56c81f490569c91bf3f5742a74fc0af5605b54f32c4d7a220117d3f"
   license "Apache-2.0"
 
   depends_on "gradle@7" => :build
