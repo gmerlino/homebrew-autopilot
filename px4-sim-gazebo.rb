@@ -24,7 +24,7 @@ class Px4SimGazebo < Formula
   depends_on "graphviz"
   depends_on "gstreamer"
   depends_on "opencv"
-  depends_on "osrf/simulation/gazebo11"
+  depends_on "osrf/simulation/gz-ionic"
   depends_on "protobuf"
   depends_on "gmerlino/autopilot/px4-dev"
   depends_on "gmerlino/autopilot/pyserial"
