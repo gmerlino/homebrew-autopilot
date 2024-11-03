@@ -1,8 +1,8 @@
 class UxrceddsClient < Formula
   desc "MicroXRCE-DDS implementation"
   homepage "https://micro-xrce-dds.docs.eprosima.com"
-  url "https://github.com/eProsima/Micro-XRCE-DDS-Client.git", tag: "v2.4.3"
-  sha256 "8f4074641c45ae2642877c7f55260d00f390e5329b138e55fd45f4e3c988ff5d"
+  url "https://github.com/eProsima/Micro-XRCE-DDS-Client.git", tag: "v3.0.0"
+  sha256 "43d273ec17937b988fc28ad926909f100332fd2cf59d6048d7eed1d793944967"
 
   depends_on "cmake" => :build
   depends_on "asio"

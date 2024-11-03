@@ -7,7 +7,7 @@ class Pyserial < Formula
   sha256 "3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"
   head "https://github.com/pyserial/pyserial.git"
 
-  depends_on "python@3.12" => [:build, :test]
+  depends_on "python@3.13" => [:build, :test]
 
   def pythons
     deps.select { |dep| dep.name.start_with?("python") }
